@@ -4,7 +4,13 @@
     <ExtensionId>BYUtv.CalendarWidget</ExtensionId>
     <LoaderName>DynamicExtensionLoader</LoaderName>
     <VirtualPath>~/Modules/BYUtv.CalendarWidget/BYUtv.CalendarWidget.csproj</VirtualPath>
-    <Hash>ea9e7c3ddf5384e6</Hash>
+    <Hash>ea9e7c3e1c199600</Hash>
+  </Dependency>
+  <Dependency>
+    <ExtensionId>Contoso</ExtensionId>
+    <LoaderName>DynamicExtensionLoader</LoaderName>
+    <VirtualPath>~/Themes/Contoso/Contoso.csproj</VirtualPath>
+    <Hash>ebf3ca2d93e75fc9</Hash>
   </Dependency>
   <Dependency>
     <ExtensionId>Lucene</ExtensionId>

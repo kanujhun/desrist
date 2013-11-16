@@ -15,9 +15,9 @@ var BYUtv;
             $('#' + Id).fullCalendar({
                 theme: true,
                 header: {
-                    left: 'prev,next today',
-                    center: 'title',
-                    right: 'month,agendaWeek,agendaDay'
+                    left: 'title',
+                    center: '',
+                    right: 'today prev,next'
                 },
                 editable: false,
                 ignoreTimezone: false,
