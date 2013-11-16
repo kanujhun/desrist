@@ -1,0 +1,8 @@
+﻿<!--
+  Placement.info
+  Placment.info is an XML file that describes the rules that can be used to determine what shapes go into what zones and in what order.
+-->
+<Placement>
+	<Place Parts_CalendarWidget="Content:1"/> <!-- Content = zone, 1 = order -->
+	<Place Parts_CalendarWidget_Edit="Content:8"/>
+</Placement>

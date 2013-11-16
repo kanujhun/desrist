@@ -1,0 +1,16 @@
+﻿@model BYUtv.CalendarWidget.Models.CalendarWidgetPartQueries
+
+@using BYUtv.CalendarWidget.Models;
+@using Orchard.Projections.Models;
+@using Orchard.ContentManagement;
+
+<fieldset>
+    <label for="@Html.FieldIdFor(m => m.QueryId)">Query</label>
+    <select id="@Html.FieldIdFor(m => m.QueryId)" name="@Html.FieldNameFor(m => m.QueryId)">
+        @foreach (QueryPart queryPart in Model.Queries)
+        {
+            @Html.SelectOption(Model.QueryId, queryPart.Record.Id, queryPart.Name)
+        }
+    </select>
+    <span class="hint">The query that contains the data to show in the calendar view.</span>
+</fieldset>

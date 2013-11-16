@@ -1,0 +1,13 @@
+﻿Name: BYUtv.CalendarWidget
+Description: Used as a training module. To learn more about manifest files see http://docs.orchardproject.net/Documentation/manifest-files Manifest - A manifest is a small text file that describes a module or a theme to the system.
+AntiForgery: enabled
+Author: Ron Peterson
+Website: http://byutv.org
+Version: 1.0
+OrchardVersion: 1.6
+Features:
+    BYUtv.CalendarWidget:
+        Description: Allows a user to create a calendar widget based on any content type with a title part and time span part.
+		Name: Calendar Widget
+		Category: BYUtv
+		Dependencies: Orchard.Projections, Orchard.jQuery
