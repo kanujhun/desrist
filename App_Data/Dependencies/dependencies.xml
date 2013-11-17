@@ -95,9 +95,21 @@
     </References>
   </Dependency>
   <Dependency>
+    <ModuleName>Contrib.GoogleAnalytics</ModuleName>
+    <VirtualPath>~/Modules/Contrib.GoogleAnalytics/Contrib.GoogleAnalytics.csproj</VirtualPath>
+    <LoaderName>DynamicExtensionLoader</LoaderName>
+    <References />
+  </Dependency>
+  <Dependency>
     <ModuleName>Dashboard</ModuleName>
     <VirtualPath>~/Core/Dashboard</VirtualPath>
     <LoaderName>CoreExtensionLoader</LoaderName>
+    <References />
+  </Dependency>
+  <Dependency>
+    <ModuleName>FeaturedItemSlider</ModuleName>
+    <VirtualPath>~/Modules/FeaturedItemSlider/FeaturedItemSlider.csproj</VirtualPath>
+    <LoaderName>DynamicExtensionLoader</LoaderName>
     <References />
   </Dependency>
   <Dependency>
@@ -772,6 +784,30 @@
     <VirtualPath>~/Core/Reports</VirtualPath>
     <LoaderName>CoreExtensionLoader</LoaderName>
     <References />
+  </Dependency>
+  <Dependency>
+    <ModuleName>RM.QuickLogOn</ModuleName>
+    <VirtualPath>~/Modules/RM.QuickLogOn/RM.QuickLogOn.csproj</VirtualPath>
+    <LoaderName>DynamicExtensionLoader</LoaderName>
+    <References>
+      <Reference>
+        <Name>Orchard.Users</Name>
+        <LoaderName>PrecompiledExtensionLoader</LoaderName>
+        <VirtualPath>~/Modules/Orchard.Users/bin/Orchard.Users.dll</VirtualPath>
+      </Reference>
+    </References>
+  </Dependency>
+  <Dependency>
+    <ModuleName>RM.QuickLogOn.OAuth</ModuleName>
+    <VirtualPath>~/Modules/RM.QuickLogOn.OAuth/RM.QuickLogOn.OAuth.csproj</VirtualPath>
+    <LoaderName>DynamicExtensionLoader</LoaderName>
+    <References>
+      <Reference>
+        <Name>RM.QuickLogOn</Name>
+        <LoaderName>DynamicExtensionLoader</LoaderName>
+        <VirtualPath>~/Modules/RM.QuickLogOn/RM.QuickLogOn.csproj</VirtualPath>
+      </Reference>
+    </References>
   </Dependency>
   <Dependency>
     <ModuleName>SafeMode</ModuleName>

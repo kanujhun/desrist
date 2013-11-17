@@ -13,6 +13,18 @@
     <Hash>ebf3ca2d93e75fc9</Hash>
   </Dependency>
   <Dependency>
+    <ExtensionId>Contrib.GoogleAnalytics</ExtensionId>
+    <LoaderName>DynamicExtensionLoader</LoaderName>
+    <VirtualPath>~/Modules/Contrib.GoogleAnalytics/Contrib.GoogleAnalytics.csproj</VirtualPath>
+    <Hash>d8720adcbd2d2fdd</Hash>
+  </Dependency>
+  <Dependency>
+    <ExtensionId>FeaturedItemSlider</ExtensionId>
+    <LoaderName>DynamicExtensionLoader</LoaderName>
+    <VirtualPath>~/Modules/FeaturedItemSlider/FeaturedItemSlider.csproj</VirtualPath>
+    <Hash>422b471e22937b92</Hash>
+  </Dependency>
+  <Dependency>
     <ExtensionId>Lucene</ExtensionId>
     <LoaderName>PrecompiledExtensionLoader</LoaderName>
     <VirtualPath>~/Modules/Lucene/bin/Lucene.dll</VirtualPath>
@@ -311,6 +323,18 @@
     <LoaderName>PrecompiledExtensionLoader</LoaderName>
     <VirtualPath>~/Modules/Orchard.Workflows/bin/Orchard.Workflows.dll</VirtualPath>
     <Hash>dba8ddb0359e7c05</Hash>
+  </Dependency>
+  <Dependency>
+    <ExtensionId>RM.QuickLogOn</ExtensionId>
+    <LoaderName>DynamicExtensionLoader</LoaderName>
+    <VirtualPath>~/Modules/RM.QuickLogOn/RM.QuickLogOn.csproj</VirtualPath>
+    <Hash>6824979fc3eaee5e</Hash>
+  </Dependency>
+  <Dependency>
+    <ExtensionId>RM.QuickLogOn.OAuth</ExtensionId>
+    <LoaderName>DynamicExtensionLoader</LoaderName>
+    <VirtualPath>~/Modules/RM.QuickLogOn.OAuth/RM.QuickLogOn.OAuth.csproj</VirtualPath>
+    <Hash>d0005302198c788</Hash>
   </Dependency>
   <Dependency>
     <ExtensionId>SysCache</ExtensionId>
