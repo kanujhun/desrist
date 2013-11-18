@@ -19,6 +19,18 @@
     <Hash>d8720adcbd2d2fdd</Hash>
   </Dependency>
   <Dependency>
+    <ExtensionId>Contrib.Stars</ExtensionId>
+    <LoaderName>DynamicExtensionLoader</LoaderName>
+    <VirtualPath>~/Modules/Contrib.Stars/Contrib.Stars.csproj</VirtualPath>
+    <Hash>40430182762c79e7</Hash>
+  </Dependency>
+  <Dependency>
+    <ExtensionId>Contrib.Voting</ExtensionId>
+    <LoaderName>DynamicExtensionLoader</LoaderName>
+    <VirtualPath>~/Modules/Contrib.Voting/Contrib.Voting.csproj</VirtualPath>
+    <Hash>f94c495fdf8a2071</Hash>
+  </Dependency>
+  <Dependency>
     <ExtensionId>FeaturedItemSlider</ExtensionId>
     <LoaderName>DynamicExtensionLoader</LoaderName>
     <VirtualPath>~/Modules/FeaturedItemSlider/FeaturedItemSlider.csproj</VirtualPath>
@@ -35,6 +47,12 @@
     <LoaderName>PrecompiledExtensionLoader</LoaderName>
     <VirtualPath>~/Modules/Markdown/bin/Markdown.dll</VirtualPath>
     <Hash>923c5e414353897b</Hash>
+  </Dependency>
+  <Dependency>
+    <ExtensionId>NGM.VoteUpDown</ExtensionId>
+    <LoaderName>DynamicExtensionLoader</LoaderName>
+    <VirtualPath>~/Modules/NGM.VoteUpDown/NGM.VoteUpDown.csproj</VirtualPath>
+    <Hash>1ab910419e40636c</Hash>
   </Dependency>
   <Dependency>
     <ExtensionId>Orchard.Alias</ExtensionId>

@@ -101,6 +101,24 @@
     <References />
   </Dependency>
   <Dependency>
+    <ModuleName>Contrib.Voting</ModuleName>
+    <VirtualPath>~/Modules/Contrib.Voting/Contrib.Voting.csproj</VirtualPath>
+    <LoaderName>DynamicExtensionLoader</LoaderName>
+    <References />
+  </Dependency>
+  <Dependency>
+    <ModuleName>Contrib.Stars</ModuleName>
+    <VirtualPath>~/Modules/Contrib.Stars/Contrib.Stars.csproj</VirtualPath>
+    <LoaderName>DynamicExtensionLoader</LoaderName>
+    <References>
+      <Reference>
+        <Name>Contrib.Voting</Name>
+        <LoaderName>DynamicExtensionLoader</LoaderName>
+        <VirtualPath>~/Modules/Contrib.Voting/Contrib.Voting.csproj</VirtualPath>
+      </Reference>
+    </References>
+  </Dependency>
+  <Dependency>
     <ModuleName>Dashboard</ModuleName>
     <VirtualPath>~/Core/Dashboard</VirtualPath>
     <LoaderName>CoreExtensionLoader</LoaderName>
@@ -143,10 +161,28 @@
     </References>
   </Dependency>
   <Dependency>
+    <ModuleName>Minty</ModuleName>
+    <VirtualPath>~/Theme/Minty</VirtualPath>
+    <LoaderName>RawThemeExtensionLoader</LoaderName>
+    <References />
+  </Dependency>
+  <Dependency>
     <ModuleName>Navigation</ModuleName>
     <VirtualPath>~/Core/Navigation</VirtualPath>
     <LoaderName>CoreExtensionLoader</LoaderName>
     <References />
+  </Dependency>
+  <Dependency>
+    <ModuleName>NGM.VoteUpDown</ModuleName>
+    <VirtualPath>~/Modules/NGM.VoteUpDown/NGM.VoteUpDown.csproj</VirtualPath>
+    <LoaderName>DynamicExtensionLoader</LoaderName>
+    <References>
+      <Reference>
+        <Name>Contrib.Voting</Name>
+        <LoaderName>DynamicExtensionLoader</LoaderName>
+        <VirtualPath>~/Modules/Contrib.Voting/Contrib.Voting.csproj</VirtualPath>
+      </Reference>
+    </References>
   </Dependency>
   <Dependency>
     <ModuleName>Orchard.AntiSpam</ModuleName>
