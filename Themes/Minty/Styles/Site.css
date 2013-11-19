@@ -529,7 +529,7 @@ ul.tagcloud { margin: 0; list-style-type: none; width: 300px; }
     .tagcloud li.tagCloud-5 { font-size: 1.9em; }
 
 /* Search Widget */
-.widget-search-form { float: none !important; }
+.widget-search-form { float: none !important;  }
 
 /* Blog Archives Widget */
 .archives ul { list-style-type: none; }

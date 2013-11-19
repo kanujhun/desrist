@@ -1,0 +1,5 @@
+<RecipeJournal>
+  <Status>Failed</Status>
+  <Message>Executing step Feature.</Message>
+  <Message>Recipe execution with id 004349251a9d49bf958f65cf017bb3eb was cancelled because the "Feature" step failed to execute. The following exception was thrown: Sequence contains no matching element. Refer to the error logs for more information.</Message>
+</RecipeJournal>

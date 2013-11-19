@@ -27,6 +27,7 @@ form>.voteupdown { /* For non-IE browsers*/
 .updown-current-result {
 	width:30px;
 	text-align: center;
+    margin-left: 5px; /*added*/
 }
 
 .updown-rating {

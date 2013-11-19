@@ -4,6 +4,7 @@ using System.Collections;
 using System.Linq;
 using System.Reflection;
 using System.Xml.Linq;
+using ClaySharp;
 using Orchard.ContentManagement;
 using Orchard.DisplayManagement;
 using Orchard.DisplayManagement.Shapes;
@@ -194,19 +195,12 @@ namespace Orchard.DesignerTools.Services {
         }
 
         private void DumpShape(IShape shape) {
-            var value = shape as Shape;
+            var members = new Dictionary<string, object>();
+            ((IClayBehaviorProvider) (dynamic) shape).Behavior.GetMembers(() => null, shape, members);
 
-            if (value == null) {
-                return;
-            }
-
-            foreach (DictionaryEntry entry in value.Properties) {
+            foreach (var key in members.Keys.Where(key => !key.StartsWith("_"))) {
                 // ignore private members (added dynamically by the shape wrapper)
-                if (entry.Key.ToString().StartsWith("_")) {
-                    continue;
-                }
-
-                Dump(entry.Value, entry.Key.ToString());
+                Dump(members[key], key);
             }
         }
 

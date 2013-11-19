@@ -4,7 +4,13 @@
     <ExtensionId>BYUtv.CalendarWidget</ExtensionId>
     <LoaderName>DynamicExtensionLoader</LoaderName>
     <VirtualPath>~/Modules/BYUtv.CalendarWidget/BYUtv.CalendarWidget.csproj</VirtualPath>
-    <Hash>ea9e7c3e1c199600</Hash>
+    <Hash>ea9e7e4e2ffd151c</Hash>
+  </Dependency>
+  <Dependency>
+    <ExtensionId>CKEditor</ExtensionId>
+    <LoaderName>DynamicExtensionLoader</LoaderName>
+    <VirtualPath>~/Modules/CKEditor/CKEditor.csproj</VirtualPath>
+    <Hash>cf914d49150e55ad</Hash>
   </Dependency>
   <Dependency>
     <ExtensionId>Contoso</ExtensionId>
@@ -17,6 +23,12 @@
     <LoaderName>DynamicExtensionLoader</LoaderName>
     <VirtualPath>~/Modules/Contrib.GoogleAnalytics/Contrib.GoogleAnalytics.csproj</VirtualPath>
     <Hash>d8720adcbd2d2fdd</Hash>
+  </Dependency>
+  <Dependency>
+    <ExtensionId>Contrib.MediaPickerField</ExtensionId>
+    <LoaderName>DynamicExtensionLoader</LoaderName>
+    <VirtualPath>~/Modules/Contrib.MediaPickerField/Contrib.MediaPickerField.csproj</VirtualPath>
+    <Hash>b53139e11ff0ac18</Hash>
   </Dependency>
   <Dependency>
     <ExtensionId>Contrib.Stars</ExtensionId>
@@ -49,10 +61,16 @@
     <Hash>923c5e414353897b</Hash>
   </Dependency>
   <Dependency>
+    <ExtensionId>Mello.ImageGallery</ExtensionId>
+    <LoaderName>DynamicExtensionLoader</LoaderName>
+    <VirtualPath>~/Modules/Mello.ImageGallery/Mello.ImageGallery.csproj</VirtualPath>
+    <Hash>ef06d1a97081c7be</Hash>
+  </Dependency>
+  <Dependency>
     <ExtensionId>NGM.VoteUpDown</ExtensionId>
     <LoaderName>DynamicExtensionLoader</LoaderName>
     <VirtualPath>~/Modules/NGM.VoteUpDown/NGM.VoteUpDown.csproj</VirtualPath>
-    <Hash>1ab910419e40636c</Hash>
+    <Hash>1ab9119d95b99b1e</Hash>
   </Dependency>
   <Dependency>
     <ExtensionId>Orchard.Alias</ExtensionId>
@@ -128,9 +146,9 @@
   </Dependency>
   <Dependency>
     <ExtensionId>Orchard.DesignerTools</ExtensionId>
-    <LoaderName>PrecompiledExtensionLoader</LoaderName>
-    <VirtualPath>~/Modules/Orchard.DesignerTools/bin/Orchard.DesignerTools.dll</VirtualPath>
-    <Hash>25176d21c142a5d1</Hash>
+    <LoaderName>DynamicExtensionLoader</LoaderName>
+    <VirtualPath>~/Modules/Orchard.DesignerTools/Orchard.DesignerTools.csproj</VirtualPath>
+    <Hash>9a174f909af86382</Hash>
   </Dependency>
   <Dependency>
     <ExtensionId>Orchard.Email</ExtensionId>
